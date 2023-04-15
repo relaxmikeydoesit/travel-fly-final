@@ -1,0 +1,70 @@
+h1 {
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 30px;
+    text-transform: uppercase;
+     text-decoration: underline;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+    .date-box {
+        width: 60px;
+        height: 60px;
+        background-color: #79ADDC;
+        
+
+    h2 {
+        font-family: "gill-sans-nova";
+        font-size: 22px;
+        font-weight: 800;
+        color: #fff;
+        text-align: center;
+    }
+    h3 {
+        font-family: "gill-sans-nova";
+        font-size: 12px;
+        font-weight: 800;
+        color: #fff;
+        margin-top: -18px;
+        text-align: center;
+    }
+}
+    }
+    .right {
+    
+        width: 900px;
+        height: 566px;
+        // background-color: cadetblue;
+    
+    .post {
+        
+        .post-image {
+            width: 900px;
+            height: 259px;
+            // background-color: aquamarine;
+            background-image: url(../images/blog-pic.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .post-content {
+
+            span {
+                font-family: "gill-sans-nova";
+                font-size: 15px;
+                
+            }
+            p {
+                font-family: "gill-sans-nova";
+                font-size: 13px;
+                margin-top: 11px;
+                color: #79ADDC;
+
+            }
+        }
+        }
+    }

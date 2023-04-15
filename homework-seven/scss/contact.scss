@@ -1,0 +1,96 @@
+.contact {
+    height: 750px;
+    // background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    .map {
+        width: 400px;
+        // background-color: bisque;
+
+        .map-image {
+            width: 100%;
+            height: 442px;
+            margin-bottom: 34px;
+            background-image: url(../images/map-image.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+   
+        .map-address {
+            width: 100%;
+            height: 176px;
+            // background-color: purple;
+
+            p{ 
+                font: {
+                family: "gill-sans-nova", sans-serif;
+                size: 18px;
+              }
+            }
+        }
+   
+    }
+
+
+    .contactForm {
+        width: 520px;
+        height: 560px;
+        // background-color: teal;
+
+        .textFields {
+            width: 95%;
+            height: 60px;
+            margin-bottom: 21px;
+            padding-left: 21px;
+        }
+
+        .textArea {
+
+            padding-left: 25px;
+            padding-top: 25px;
+        }    }
+    
+    .submit-button {
+        margin-top: 10px;
+        margin-left: 160px;
+        width: 168px;
+        padding: 5px 30px;
+        background-color: #79ADDC;
+        color: #fff;
+
+
+        text-transform: uppercase;
+        text-align: center;
+        font-family: "gill-sans-nova";
+    margin-bottom: 25px;
+
+            a {
+            text-decoration: none;
+            color: #fff;
+            }
+        }
+    }
+
+
+@media only screen and (max-width: 990px) {
+    .contact {
+        height: auto;
+        flex-direction: column;
+        align-items: normal;
+
+        .submit-button {
+            margin-top: 8px;
+        }
+
+
+        .map {
+            height: auto;
+
+            margin-bottom: 10px;
+        }
+    }
+        .footer {
+            height: 85px;
+        }
+}

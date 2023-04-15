@@ -1,0 +1,27 @@
+@mixin dotYay {
+    width: 133px;
+    height: 40px;
+    background-color: #79ADDC;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 9px;
+
+
+    a {
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-left: 24px;
+        font-family: "gill-sans-nova";
+        font-size: 15px;
+
+    }
+}
+
+@mixin push--auto {
+    margin: { 
+        left: auto;
+        right: auto;
+    }
+}
